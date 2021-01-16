@@ -68,12 +68,12 @@ export default {
         'About',
         [
           {
-            href: 'https://admin-one.justboil.me',
-            label: 'Premium Demo',
+            href: 'https://upecommerce.app',
+            label: 'Refresh',
             icon: 'credit-card'
           },
           {
-            href: 'https://justboil.me/bulma-admin-template/one',
+            href: 'https://upecommerce.asia',
             label: 'About',
             icon: 'help-circle'
           }
@@ -83,8 +83,8 @@ export default {
   },
   created () {
     this.$store.commit('user', {
-      name: 'John Doe',
-      email: 'john@example.com',
+      name: 'Nattapong M',
+      email: 'nattapong.m@upecommerce.asia',
       avatar: 'https://avatars.dicebear.com/v2/gridy/John-Doe.svg'
     })
   }
